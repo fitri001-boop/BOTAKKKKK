@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body{
+  background-color: #090d42;
+}
+
+/* img{
+  width: 200px;
+  height: auto;
+  transition: .3s ease all;
+  -webkit-transition: .3s ease all;
+  -moz-transition: .3s ease all;
+  -ms-transition: .3s ease all;
+  -o-transition: .3s ease all
+}
+
+img:hover{
+  scale: 102% ;
+} */
+
+.iy{
+  transition: .3s ease all;
+  -webkit-transition: .3s ease all;
+  -moz-transition: .3s ease all;
+  -ms-transition: .3s ease all;
+  -o-transition: .3s ease all
+}
+
+.iy:hover{
+  scale: 102%;
+  box-shadow: 0 0 5px 5px rgba(255,255,255,0.2);
+}
+.zoom{
+   transition: .3s ease all;
+  -webkit-transition: .3s ease all;
+  -moz-transition: .3s ease all;
+  -ms-transition: .3s ease all;
+  -o-transition: .3s ease all
+}
+.zoom:hover{
+  scale: 102%;
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+input {
+  /* border: 2px solid #99a1af; */
+  outline: none;
+}
+
+/* input:focus {
+  border: 2px solid rgb(238, 238, 238);
+  background-color: #ffffff;
+} */
+
+button{
+   transition: .3s ease all;
+  -webkit-transition: .3s ease all;
+  -moz-transition: .3s ease all;
+  -ms-transition: .3s ease all;
+  -o-transition: .3s ease all
+}
+button:hover {
+  scale: 103%;
+  background-color: blue;
+}
+
+h1{
+  
+}
+
+
