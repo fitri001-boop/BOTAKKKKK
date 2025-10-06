@@ -80,7 +80,7 @@ input {
   background-color: #ffffff;
 } */
 
-button{
+/* button{
    transition: .3s ease all;
   -webkit-transition: .3s ease all;
   -moz-transition: .3s ease all;
@@ -89,11 +89,9 @@ button{
 }
 button:hover {
   scale: 103%;
-  background-color: blue;
-}
+  background-color: black;
+} */
 
-h1{
-  
-}
+
 
 
